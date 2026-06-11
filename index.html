@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroForte 2026</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+
+<!-- CABEÇALHO -->
+<header class="bg-green-700 text-white text-center py-10">
+<h1 class="text-5xl font-bold">
+<i class="fa-solid fa-seedling"></i>
+AGROFORTE 2026
+</h1>
+<p class="mt-3 text-xl">
+Tecnologia, Produção e Sustentabilidade no Campo
+</p>
+</header>
+
+<!-- BANNER -->
+<section class="max-w-6xl mx-auto mt-8 px-4">
+<div class="bg-white rounded-xl shadow-lg overflow-hidden">
+<img
+src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200"
+class="w-full h-96 object-cover"
+alt="Futuro do Agronegócio">
+
+<div class="p-8">
+<h2 class="text-3xl font-bold text-green-700">
+O Futuro do Agronegócio
+</h2>
+
+<p class="mt-4 text-gray-700">
+O agronegócio moderno utiliza máquinas inteligentes,
+agricultura de precisão e tecnologias digitais para
+aumentar a produtividade e reduzir impactos ambientais.
+</p>
+</div>
+</div>
+</section>
+
+<!-- CARDS -->
+<section class="max-w-6xl mx-auto px-4 mt-10">
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=800"
+class="h-52 w-full object-cover"
+alt="Agricultores">
+<div class="p-5">
+<h3 class="text-xl font-bold text-green-700">
+<i class="fa-solid fa-users"></i>
+Agricultores
+</h3>
+<p>
+Os produtores rurais são responsáveis pela produção
+de alimentos que abastecem o Brasil e o mundo.
+</p>
+</div>
+</div>
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800"
+class="h-52 w-full object-cover"
+alt="Máquinas Agrícolas">
+<div class="p-5">
+<h3 class="text-xl font-bold text-green-700">
+<i class="fa-solid fa-tractor"></i>
+Máquinas Agrícolas
+</h3>
+<p>
+Tratores, pulverizadores e colheitadeiras aumentam
+a eficiência das lavouras.
+</p>
+</div>
+</div>
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800"
+class="h-52 w-full object-cover"
+alt="Sustentabilidade">
+<div class="p-5">
+<h3 class="text-xl font-bold text-green-700">
+<i class="fa-solid fa-leaf"></i>
+Sustentabilidade
+</h3>
+<p>
+Produção eficiente com preservação ambiental e uso
+responsável dos recursos naturais.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- COLHEITA MECANIZADA -->
+<section class="max-w-6xl mx-auto px-4 mt-10">
+
+<div class="bg-white rounded-xl shadow-lg p-8">
+
+<h2 class="text-3xl font-bold text-green-700 mb-5">
+🚜 Colheita Mecanizada
+</h2>
+
+<img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200"
+class="rounded-lg w-full h-80 object-cover"
+alt="Colheita Mecanizada">
+
+<p class="mt-5 text-gray-700">
+A mecanização agrícola permite maior produtividade,
+redução de perdas e melhor aproveitamento do tempo
+de colheita.
+</p>
+
+</div>
+
+</section>
+
+<!-- GRÁFICO -->
+<section class="max-w-6xl mx-auto px-4 mt-10">
+
+<div class="bg-white rounded-xl shadow-lg p-8">
+
+<h2 class="text-3xl font-bold text-center text-green-700 mb-6">
+📈 Crescimento da Produção Agrícola
+</h2>
+
+<div class="chart-container">
+<canvas id="grafico"></canvas>
+</div>
+
+</div>
+
+</section>
+
+<!-- BENEFÍCIOS -->
+<section class="max-w-6xl mx-auto px-4 mt-10 mb-10">
+
+<div class="grid md:grid-cols-4 gap-5">
+
+<div class="bg-green-600 text-white p-6 rounded-xl text-center transform hover:scale-105 transition-transform">
+<h3 class="text-4xl font-bold">90%</h3>
+<p class="mt-2">Eficiência Operacional</p>
+</div>
+
+<div class="bg-green-600 text-white p-6 rounded-xl text-center transform hover:scale-105 transition-transform">
+<h3 class="text-4xl font-bold">+70%</h3>
+<p class="mt-2">Produtividade</p>
+</div>
+
+<div class="bg-green-600 text-white p-6 rounded-xl text-center transform hover:scale-105 transition-transform">
+<h3 class="text-4xl font-bold">24h</h3>
+<p class="mt-2">Monitoramento</p>
+</div>
+
+<div class="bg-green-600 text-white p-6 rounded-xl text-center transform hover:scale-105 transition-transform">
+<h3 class="text-4xl font-bold">100%</h3>
+<p class="mt-2">Compromisso Sustentável</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- RODAPÉ -->
+<footer class="bg-green-700 text-white text-center py-8 mt-10">
+
+<h3 class="text-2xl font-bold">
+AgroForte 2026
+</h3>
+
+<p>
+Tecnologia, economia e sustentabilidade para o futuro.
+</p>
+
+<p class="mt-4 text-sm">
+&copy; 2026 AgroForte. Todos os direitos reservados.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
